@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  position: relative;
+}
+
+.main-box {
+  width: 500px;
+  margin: auto;
+}
+
+.app-title {
+  background : #26b0d7;
+  color: whitesmoke;
+  height: 60px;
+  margin: 0;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.add-new-status {
+  margin: auto;
+  margin-top: 15px;
+  height: 130px;
+  width: 480px;
+  border: 1px solid lightgray;
+}
+
+.add-new-status h3 {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.add-new-status a {
+  float: right;
+  padding: 5px;
+  color: lightslategray;
+}
+
+.text-box {
+  width: 478px;
+  height: 40px;
+  border: 1px solid lightgray;
+}
+
+form button {
+  background: #107ad8;
+  border: 1px solid #107ad8;
+  border-radius: 7%;
+  color: whitesmoke;
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+  width: 100px;
+  height: 30px;
+
+}
+
+.message-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+/* make status-container-right 450 px wide */
+/* make it inline */
+
+.status-container-left {
+  position: relative;
+  display: inline; 
+}
+
+.status-container-left img {
+  margin-top: 30%;
+  padding-right: 5px;
+  
+}
+
+.status-container-right {
+  width: 445px;
+  float: right;
+}
+
+.status-container-right h3 {
+  font-size: 14px;
+  margin: 15px;
+  
+}
+
+.status-container-right p {
+  font-size: 15px;
+  margin-left: 15px;
+  padding: 15px;
+  border: 1px solid grey;
+}
